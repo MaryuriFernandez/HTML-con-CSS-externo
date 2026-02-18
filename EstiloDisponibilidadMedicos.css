@@ -1,0 +1,96 @@
+/*El selector de elemento header se encarga de aplicar un color al fondo y al titulo 
+que se encuentra en el header*/
+header{
+    background-color: #16254C;
+    color: white;
+}
+
+/*El selector de clase gridSuperior se aplica a la parte superior-experior, es decir, al diseño 
+de la proporción y el espaciado entre el div de la imagen y el div del header de la página*/
+.gridSuperior{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 20px;
+}
+
+/*El selector de ID tituloDiv se aplica al div que contiene el titulo del header*/
+#tituloDiv{
+    padding-top: 35px;
+    text-align:left;
+    font-family:'Times New Roman', Times, serif;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*El selector de clase gridCentral se aplica a la parte del main, es decir, al contenido 
+central. Se hace un grid con proporciones iguales para los div que contiene, con separación 
+de 20 pixeles entre cada uno de los div que contiene y un padding top para separar el header 
+del main con 10 pixeles */
+.gridCentral{
+    display: grid;
+    grid-template-columns: 32.5% 32.5% 32.5%;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+/*Los siguientes 3 selectores de clase se encargan de diseñar el contenido de los div
+que estan dentro del main*/
+
+.medico1{
+    background-color: #f3d7f7;
+    border: 2px solid #eebbf5;
+    text-align: left;
+}
+
+.medico2{
+    background-color: #A9D6E5;
+    border: 2px solid #89C2D9;
+    text-align: center;
+}
+
+.medico3{
+    background-color:#99e0cf;
+    border: 2px solid #77dbc2;
+}
+
+/*El selector de clase diseñoGeneralTarjetas se encarga de aplicar el diseño  que va igual en 
+todas las tarjetas*/
+.diseñoGeneralTarjetas{
+    font-size: 15px;
+    border-radius: 15px;
+    padding-bottom: 5px;
+}
+
+/*El selector de agrupación se encarga de darle la margen al texto que se encuentra 
+en los parrafos y en los h3, para que se vea el texto organizado y no quede en el borde del div*/
+p, h3{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*El selector de clase alineacion se encarga de alinear las imagenes de los médicos
+al centro de cada div*/
+.alineacion{
+    text-align: center;
+}
+
+/*El selector de elemento footer se encarga de aplicar un color al fondo y al texto, además 
+de colocar un padding para que no se vea el texto muy al borde del footer*/
+footer{
+    background-color: #16254C;
+    padding-bottom: 10px;
+    color: white;
+}
+
+/*El selector de elemento button se encarga de aplicar un color al fondo y al texto, un tamaño 
+y tipo de letra, el radio de borde del botón y el ancho y alto para dar un tamaño adecuado*/
+button{
+    background-color: #a3b8ee;
+    border: 1px solid #7e9ce7;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+}
