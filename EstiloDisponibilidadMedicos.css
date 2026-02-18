@@ -62,8 +62,8 @@ todas las tarjetas*/
 }
 
 /*El selector de agrupación se encarga de darle la margen al texto que se encuentra 
-en los parrafos y en los h3, para que se vea el texto organizado y no quede en el borde del div*/
-p, h3{
+en los parrafos y en los h2, para que se vea el texto organizado y no quede en el borde del div*/
+p, h2{
     margin-left: 10px;
     margin-right: 10px;
 }
